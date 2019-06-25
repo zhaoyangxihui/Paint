@@ -34,9 +34,7 @@ public class GradientLayout extends View {
     }
 
     private void init() {
-
         mBitmap = BitmapFactory.decodeResource(getResources(), R.drawable.beauty);
-
         mPaint = new Paint(); //初始化
 //        mPaint.setColor(Color.RED);// 设置颜色
 //        mPaint.setARGB(255, 255, 255, 0); // 设置 Paint对象颜色,范围为0~255
